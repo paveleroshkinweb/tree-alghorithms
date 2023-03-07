@@ -1,0 +1,8 @@
+version: "3.0.0"
+
+services:
+  tree:
+    build: .
+    volumes:
+    - ./src:/home/app/src
+    - ./tests:/home/app/tests
